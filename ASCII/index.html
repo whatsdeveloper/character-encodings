@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASCII</title>
+    <base href="https://en.wikipedia.org/" />
+    <style>
+      table {
+        width: 100%;
+        text-align: center;
+        font-family: monospace;
+        border-collapse: collapse;
+      }
+      th {
+        width: 3.4em;
+        height: 4em;
+        background: #eee;
+      }
+      a {
+        text-decoration: none;
+      }
+      .other {
+        background: #ccff99;
+      }
+      .undefined {
+        border: 3px solid gray;
+      }
+      .punctuation {
+        background: #dff7ff;
+      }
+      .symbol {
+        background: #ffefaf;
+      }
+      .number {
+        background: #f7e7ff;
+      }
+      .letter-cap {
+        background: #fff;
+      }
+      .letter {
+        background: #f8faee;
+      }
+      footer {
+        padding: 10px 0;
+      }
+      footer span {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        margin: 1px 0;
+        border: 1px solid black;
+        color: black;
+        font-size: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        <span style="font-family: sans-serif">ASCII (1977/1986)</span>
+      </caption>
+      <tbody>
+        <tr>
+          <th></th>
+          <th>_0</th>
+          <th>_1</th>
+          <th>_2</th>
+          <th>_3</th>
+          <th>_4</th>
+          <th>_5</th>
+          <th>_6</th>
+          <th>_7</th>
+          <th>_8</th>
+          <th>_9</th>
+          <th>_A</th>
+          <th>_B</th>
+          <th>_C</th>
+          <th>_D</th>
+          <th>_E</th>
+          <th>_F</th>
+        </tr>
+        <tr>
+          <th>0_<br />0</th>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Null_character" title="Null character"
+                  >NUL</a
+                ></span
+              ></span
+            ><br /><small>0000</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/Start_of_heading"
+                  class="mw-redirect"
+                  title="Start of heading"
+                  >SOH</a
+                ></span
+              ></span
+            ><br /><small>0001</small>
+          </td>
+          <td class="other undefined">
+            <a href="/wiki/Start_of_text" title="Start of text">STX</a
+            ><br /><small>0002</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/End_of_text" title="End of text">ETX</a></span
+              ></span
+            ><br /><small>0003</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/End_of_transmission_character"
+                  title="End of transmission character"
+                  >EOT</a
+                ></span
+              ></span
+            ><br /><small>0004</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Enquiry_character" title="Enquiry character"
+                  >ENQ</a
+                ></span
+              ></span
+            ><br /><small>0005</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/Acknowledge_character"
+                  title="Acknowledge character"
+                  >ACK</a
+                ></span
+              ></span
+            ><br /><small>0006</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Bell_character" title="Bell character"
+                  >BEL</a
+                ></span
+              ></span
+            ><br /><small>0007</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Backspace" title="Backspace">BS</a></span
+              ></span
+            ><br /><small>0008</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/Horizontal_tabulation"
+                  title="Horizontal tabulation"
+                  >HT</a
+                ></span
+              ></span
+            ><br /><small>0009</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Line_feed" title="Line feed">LF</a></span
+              ></span
+            ><br /><small>000A</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Vertical_tabulation" title="Vertical tabulation"
+                  >VT</a
+                ></span
+              ></span
+            ><br /><small>000B</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Form_feed" title="Form feed">FF</a></span
+              ></span
+            ><br /><small>000C</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Carriage_return" title="Carriage return"
+                  >CR</a
+                ></span
+              ></span
+            ><br /><small>000D</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Shift_out" title="Shift out">SO</a></span
+              ></span
+            ><br /><small>000E</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Shift_in" title="Shift in">SI</a></span
+              ></span
+            ><br /><small>000F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>1_<br />16</th>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Data_link_escape" title="Data link escape"
+                  >DLE</a
+                ></span
+              ></span
+            ><br /><small>0010</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Device_Control_1" title="Device Control 1"
+                  >DC1</a
+                ></span
+              ></span
+            ><br /><small>0011</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Device_Control_2" title="Device Control 2"
+                  >DC2</a
+                ></span
+              ></span
+            ><br /><small>0012</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Device_Control_3" title="Device Control 3"
+                  >DC3</a
+                ></span
+              ></span
+            ><br /><small>0013</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Device_Control_4" title="Device Control 4"
+                  >DC4</a
+                ></span
+              ></span
+            ><br /><small>0014</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/Negative_acknowledge_character"
+                  title="Negative acknowledge character"
+                  >NAK</a
+                ></span
+              ></span
+            ><br /><small>0015</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Synchronous_idle" title="Synchronous idle"
+                  >SYN</a
+                ></span
+              ></span
+            ><br /><small>0016</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/End_of_transmission_block"
+                  title="End of transmission block"
+                  >ETB</a
+                ></span
+              ></span
+            ><br /><small>0017</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Cancel_character" title="Cancel character"
+                  >CAN</a
+                ></span
+              ></span
+            ><br /><small>0018</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/End_of_medium" title="End of medium"
+                  >EM</a
+                ></span
+              ></span
+            ><br /><small>0019</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a
+                  href="/wiki/Substitute_character"
+                  title="Substitute character"
+                  >SUB</a
+                ></span
+              ></span
+            ><br /><small>001A</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Escape_character" title="Escape character"
+                  >ESC</a
+                ></span
+              ></span
+            ><br /><small>001B</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/File_separator" title="File separator"
+                  >FS</a
+                ></span
+              ></span
+            ><br /><small>001C</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Group_separator" title="Group separator"
+                  >GS</a
+                ></span
+              ></span
+            ><br /><small>001D</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Record_separator" title="Record separator"
+                  >RS</a
+                ></span
+              ></span
+            ><br /><small>001E</small>
+          </td>
+          <td class="other undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Unit_separator" title="Unit separator"
+                  >US</a
+                ></span
+              ></span
+            ><br /><small>001F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>2_<br />32</th>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><link
+                rel="mw-deduplicated-inline-style"
+                href="mw-data:TemplateStyles:r886047074"/><span
+                class="smallcaps"
+                style="font-size: smaller;"
+              ></span></span
+            ><a href="/wiki/Space_character" title="Space character">SP</a>
+            <br /><small>0020</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Exclamation_mark" title="Exclamation mark"
+                >!</a
+              ></span
+            ><br /><small>0021</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Quotation_mark" title="Quotation mark">"</a></span
+            ><br /><small>0022</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Number_sign" title="Number sign">#</a></span
+            ><br /><small>0023</small>
+          </td>
+          <td class="symbol">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Dollar_sign" title="Dollar sign">$</a></span
+            ><br /><small>0024</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Percent_sign" title="Percent sign">%</a></span
+            ><br /><small>0025</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Ampersand" title="Ampersand">&amp;</a></span
+            ><br /><small>0026</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Apostrophe" title="Apostrophe">'</a></span
+            ><br /><small>0027</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Left_parenthesis" title="Left parenthesis"
+                >(</a
+              ></span
+            ><br /><small>0028</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Right_parenthesis" title="Right parenthesis"
+                >)</a
+              ></span
+            ><br /><small>0029</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Asterisk" title="Asterisk">*</a></span
+            ><br /><small>002A</small>
+          </td>
+          <td class="symbol">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Plus_sign" title="Plus sign">+</a></span
+            ><br /><small>002B</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Comma_(punctuation)" title="Comma (punctuation)"
+                >,</a
+              ></span
+            ><br /><small>002C</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Hyphen-minus" title="Hyphen-minus">-</a></span
+            ><br /><small>002D</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Full_stop" title="Full stop">.</a></span
+            ><br /><small>002E</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Slash_(punctuation)" title="Slash (punctuation)"
+                >/</a
+              ></span
+            ><br /><small>002F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>3_<br />48</th>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/0" title="0">0</a></span
+            ><br /><small>0030</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/1" title="1">1</a></span
+            ><br /><small>0031</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/2" title="2">2</a></span
+            ><br /><small>0032</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/3" title="3">3</a></span
+            ><br /><small>0033</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/4" title="4">4</a></span
+            ><br /><small>0034</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/5" title="5">5</a></span
+            ><br /><small>0035</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/6" title="6">6</a></span
+            ><br /><small>0036</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/7" title="7">7</a></span
+            ><br /><small>0037</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/8" title="8">8</a></span
+            ><br /><small>0038</small>
+          </td>
+          <td class="number">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/9" title="9">9</a></span
+            ><br /><small>0039</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Colon_(punctuation)" title="Colon (punctuation)"
+                >:</a
+              ></span
+            ><br /><small>003A</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Semicolon" title="Semicolon">;</a></span
+            ><br /><small>003B</small>
+          </td>
+          <td class="symbol">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Less-than_sign" title="Less-than sign"
+                >&lt;</a
+              ></span
+            ><br /><small>003C</small>
+          </td>
+          <td class="symbol">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Equal_sign" title="Equal sign">=</a></span
+            ><br /><small>003D</small>
+          </td>
+          <td class="symbol">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Greater-than_sign" title="Greater-than sign"
+                >&gt;</a
+              ></span
+            ><br /><small>003E</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Question_mark" title="Question mark">?</a></span
+            ><br /><small>003F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>4_<br />64</th>
+          <td class="punctuation undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/@" title="@">@</a></span
+            ><br /><small>0040</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/A" title="A">A</a></span
+            ><br /><small>0041</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/B" title="B">B</a></span
+            ><br /><small>0042</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/C" title="C">C</a></span
+            ><br /><small>0043</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/D" title="D">D</a></span
+            ><br /><small>0044</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/E" title="E">E</a></span
+            ><br /><small>0045</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/F" title="F">F</a></span
+            ><br /><small>0046</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/G" title="G">G</a></span
+            ><br /><small>0047</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/H" title="H">H</a></span
+            ><br /><small>0048</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/I" title="I">I</a></span
+            ><br /><small>0049</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/J" title="J">J</a></span
+            ><br /><small>004A</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/K" title="K">K</a></span
+            ><br /><small>004B</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/L" title="L">L</a></span
+            ><br /><small>004C</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/M" title="M">M</a></span
+            ><br /><small>004D</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/N" title="N">N</a></span
+            ><br /><small>004E</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/O" title="O">O</a></span
+            ><br /><small>004F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>5_<br />80</th>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/P" title="P">P</a></span
+            ><br /><small>0050</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Q" title="Q">Q</a></span
+            ><br /><small>0051</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/R" title="R">R</a></span
+            ><br /><small>0052</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/S" title="S">S</a></span
+            ><br /><small>0053</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/T" title="T">T</a></span
+            ><br /><small>0054</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/U" title="U">U</a></span
+            ><br /><small>0055</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/V" title="V">V</a></span
+            ><br /><small>0056</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/W" title="W">W</a></span
+            ><br /><small>0057</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/X" title="X">X</a></span
+            ><br /><small>0058</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Y" title="Y">Y</a></span
+            ><br /><small>0059</small>
+          </td>
+          <td class="letter-cap">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Z" title="Z">Z</a></span
+            ><br /><small>005A</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Left_square_bracket" title="Left square bracket"
+                >[</a
+              ></span
+            ><br /><small>005B</small>
+          </td>
+          <td class="punctuation undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Backslash" title="Backslash">\</a></span
+            ><br /><small>005C</small>
+          </td>
+          <td class="punctuation">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Right_square_bracket" title="Right square bracket"
+                >]</a
+              ></span
+            ><br /><small>005D</small>
+          </td>
+          <td class="symbol undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Caret" title="Caret">^</a></span
+            ><br /><small>005E</small>
+          </td>
+          <td class="punctuation undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Underscore" title="Underscore">_</a></span
+            ><br /><small>005F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>6_<br />96</th>
+          <td class="symbol undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Grave_accent" title="Grave accent">`</a></span
+            ><br /><small>0060</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/A" title="A">a</a></span
+            ><br /><small>0061</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/B" title="B">b</a></span
+            ><br /><small>0062</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/C" title="C">c</a></span
+            ><br /><small>0063</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/D" title="D">d</a></span
+            ><br /><small>0064</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/E" title="E">e</a></span
+            ><br /><small>0065</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/F" title="F">f</a></span
+            ><br /><small>0066</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/G" title="G">g</a></span
+            ><br /><small>0067</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/H" title="H">h</a></span
+            ><br /><small>0068</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/I" title="I">i</a></span
+            ><br /><small>0069</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/J" title="J">j</a></span
+            ><br /><small>006A</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/K" title="K">k</a></span
+            ><br /><small>006B</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/L" title="L">l</a></span
+            ><br /><small>006C</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/M" title="M">m</a></span
+            ><br /><small>006D</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/N" title="N">n</a></span
+            ><br /><small>006E</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/O" title="O">o</a></span
+            ><br /><small>006F</small>
+          </td>
+        </tr>
+        <tr>
+          <th>7_<br />112</th>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/P" title="P">p</a></span
+            ><br /><small>0070</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Q" title="Q">q</a></span
+            ><br /><small>0071</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/R" title="R">r</a></span
+            ><br /><small>0072</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/S" title="S">s</a></span
+            ><br /><small>0073</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/T" title="T">t</a></span
+            ><br /><small>0074</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/U" title="U">u</a></span
+            ><br /><small>0075</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/V" title="V">v</a></span
+            ><br /><small>0076</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/W" title="W">w</a></span
+            ><br /><small>0077</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/X" title="X">x</a></span
+            ><br /><small>0078</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Y" title="Y">y</a></span
+            ><br /><small>0079</small>
+          </td>
+          <td class="letter">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Z" title="Z">z</a></span
+            ><br /><small>007A</small>
+          </td>
+          <td style="background:#D0F0FF;">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Left_curly_bracket" title="Left curly bracket"
+                >{</a
+              ></span
+            ><br /><small>007B</small>
+          </td>
+          <td class="symbol undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Vertical_bar" title="Vertical bar">|</a></span
+            ><br /><small>007C</small>
+          </td>
+          <td style="background:#D0F0FF;">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/Right_curly_bracket" title="Right curly bracket"
+                >}</a
+              ></span
+            ><br /><small>007D</small>
+          </td>
+          <td class="symbol undefined">
+            <span style="font-size: large; font-family: monospace"
+              ><a href="/wiki/~" title="~">~</a></span
+            ><br /><small>007E</small>
+          </td>
+          <td class="other">
+            <span style="font-size: large; font-family: monospace"
+              ><span class="smallcaps" style="font-size: smaller;"
+                ><a href="/wiki/Delete_character" title="Delete character"
+                  >DEL</a
+                ></span
+              ></span
+            ><br /><small>007F</small>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>
+      <span class="letter">&nbsp;</span>&nbsp;Letter&nbsp;<span class="number"
+        >&nbsp;</span
+      >&nbsp;Number&nbsp;<span class="punctuation">&nbsp;</span
+      >&nbsp;Punctuation&nbsp;<span class="symbol">&nbsp;</span
+      >&nbsp;Symbol&nbsp;<span class="other">&nbsp;</span>&nbsp;Other&nbsp;<span
+        style="background-color: #D0D0D0;"
+        >&nbsp;</span
+      >&nbsp;undefined
+    </footer>
+  </body>
+</html>
