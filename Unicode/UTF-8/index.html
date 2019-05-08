@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTF-8</title>
+    <style>
+      <style > .wikitable {
+        background: #fff;
+        margin: 1em 0;
+        border: 1pt solid #aaa;
+        border-collapse: collapse;
+        font-size: 10pt;
+      }
+      .wikitable > caption {
+        padding: 5px;
+        font-size: 10pt;
+      }
+      .wikitable > tr > th,
+      .wikitable > tr > td,
+      .wikitable > * > tr > th,
+      .wikitable > * > tr > td {
+        background: #fff;
+        color: #000;
+        border: 1pt solid #aaa;
+        padding: 0.4em 0.6em;
+      }
+      .wikitable > tr > th,
+      .wikitable > * > tr > th {
+        text-align: center;
+      }
+      .wikitable {
+        background-color: #f8f9fa;
+        color: #222;
+        margin: 1em 0;
+        border: 1px solid #a2a9b1;
+        border-collapse: collapse;
+      }
+      .wikitable > tr > th,
+      .wikitable > tr > td,
+      .wikitable > * > tr > th,
+      .wikitable > * > tr > td {
+        border: 1px solid #a2a9b1;
+        padding: 0.2em 0.4em;
+      }
+      .wikitable > tr > th,
+      .wikitable > * > tr > th {
+        background-color: #eaecf0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="wikitable">
+      <tbody>
+        <tr>
+          <th colspan="2">Character</th>
+          <th>Octal code point</th>
+          <th>Binary code point</th>
+          <th>Binary UTF-8</th>
+          <th>Octal UTF-8</th>
+          <th>Hexadecimal UTF-8</th>
+        </tr>
+        <tr>
+          <td>$</td>
+          <td>
+            <span class="monospaced">U+0024</span>
+          </td>
+          <td align="left">
+            <span class="monospaced"><span style="color:red;">044</span></span>
+          </td>
+          <td align="right">
+            <span class="monospaced"
+              ><span style="color:red;">010 0100</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >0<span style="color:red;">0100100</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"><span style="color:red;">044</span></span>
+          </td>
+          <td align="left">
+            <span class="monospaced"><span style="color:red;">24</span></span>
+          </td>
+        </tr>
+        <tr>
+          <td>¢</td>
+          <td>
+            <span class="monospaced">U+00A2</span>
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:green;">02</span
+              ><span style="color:red;">42</span></span
+            >
+          </td>
+          <td align="right">
+            <span class="monospaced"
+              ><span style="color:green;">000 10</span
+              ><span style="color:red;">10 0010</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >110<span style="color:green;">00010</span> 10<span
+                style="color:red;"
+                >100010</span
+              ></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >3<span style="color:green;">02</span> 2<span style="color:red;"
+                >42</span
+              ></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:green;">C2</span>
+              <span style="color:red;">A2</span></span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            ह
+          </td>
+          <td>
+            <span class="monospaced">U+0939</span>
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:blue;">00</span
+              ><span style="color:green;">44</span
+              ><span style="color:red;">71</span></span
+            >
+          </td>
+          <td align="right">
+            <span class="monospaced"
+              ><span style="color:blue;">0000</span>
+              <span style="color:green;">1001 00</span
+              ><span style="color:red;">11 1001</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >1110<span style="color:blue;">0000</span> 10<span
+                style="color:green;"
+                >100100</span
+              >
+              10<span style="color:red;">111001</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >34<span style="color:blue;">0</span> 2<span style="color:green;"
+                >44</span
+              >
+              2<span style="color:red;">71</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:blue;">E0</span>
+              <span style="color:green;">A4</span>
+              <span style="color:red;">B9</span></span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>€</td>
+          <td>
+            <span class="monospaced">U+20AC</span>
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:blue;">02</span
+              ><span style="color:green;">02</span
+              ><span style="color:red;">54</span></span
+            >
+          </td>
+          <td align="right">
+            <span class="monospaced"
+              ><span style="color:blue;">0010</span>
+              <span style="color:green;">0000 10</span
+              ><span style="color:red;">10 1100</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >1110<span style="color:blue;">0010</span> 10<span
+                style="color:green;"
+                >000010</span
+              >
+              10<span style="color:red;">101100</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >34<span style="color:blue;">2</span> 2<span style="color:green;"
+                >02</span
+              >
+              2<span style="color:red;">54</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color:blue;">E2</span>
+              <span style="color:green;">82</span>
+              <span style="color:red;">AC</span></span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>𐍈</td>
+          <td>
+            <span class="monospaced">U+10348</span>
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color: #C000C0;">0</span
+              ><span style="color:blue;">20</span
+              ><span style="color:green;">15</span
+              ><span style="color:red;">10</span></span
+            >
+          </td>
+          <td align="right">
+            <span class="monospaced"
+              ><span style="color: #C000C0;">0 00</span
+              ><span style="color:blue;">01 0000</span>
+              <span style="color:green;">0011 01</span
+              ><span style="color:red;">00 1000</span></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >11110<span style="color: #C000C0;">000</span> 10<span
+                style="color:blue;"
+                >010000</span
+              >
+              10<span style="color:green;">001101</span> 10<span
+                style="color:red;"
+                >001000</span
+              ></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              >36<span style="color: #C000C0;">0</span> 2<span
+                style="color:blue;"
+                >20</span
+              >
+              2<span style="color:green;">15</span> 2<span style="color:red;"
+                >10</span
+              ></span
+            >
+          </td>
+          <td align="left">
+            <span class="monospaced"
+              ><span style="color: #C000C0;">F0</span>
+              <span style="color:blue;">90</span>
+              <span style="color:green;">8D</span>
+              <span style="color:red;">88</span></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
