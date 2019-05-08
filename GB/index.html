@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GB 18030</title>
+    <style>
+      .wikitable {
+        background: #fff;
+        margin: 1em 0;
+        border: 1pt solid #aaa;
+        border-collapse: collapse;
+        font-size: 10pt;
+      }
+      .wikitable > caption {
+        padding: 5px;
+        font-size: 10pt;
+      }
+      .wikitable > tr > th,
+      .wikitable > tr > td,
+      .wikitable > * > tr > th,
+      .wikitable > * > tr > td {
+        background: #fff;
+        color: #000;
+        border: 1pt solid #aaa;
+        padding: 0.4em 0.6em;
+      }
+      .wikitable > tr > th,
+      .wikitable > * > tr > th {
+        text-align: center;
+      }
+      .wikitable {
+        background-color: #f8f9fa;
+        color: #222;
+        margin: 1em 0;
+        border: 1px solid #a2a9b1;
+        border-collapse: collapse;
+      }
+      .wikitable > tr > th,
+      .wikitable > tr > td,
+      .wikitable > * > tr > th,
+      .wikitable > * > tr > td {
+        border: 1px solid #a2a9b1;
+        padding: 0.2em 0.4em;
+      }
+      .wikitable > tr > th,
+      .wikitable > * > tr > th {
+        background-color: #eaecf0;
+        text-align: center;
+      }
+      .wikitable > caption {
+        font-weight: bold;
+      }
+      code {
+        color: #000;
+        background-color: #f8f9fa;
+        border: 1px solid #eaecf0;
+        border-radius: 2px;
+        padding: 1px 4px;
+      }
+      .mw-highlight {
+        background: #f8f8f8;
+      }
+      .mw-highlight {
+        direction: ltr;
+        unicode-bidi: embed;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="wikitable">
+      <caption>
+        GB 18030编码
+      </caption>
+      <tbody>
+        <tr>
+          <th colspan="4">GB 18030</th>
+          <th rowspan="2">
+            码位数
+          </th>
+          <th rowspan="2">
+            Unicode
+          </th>
+        </tr>
+        <tr>
+          <th>字节1（最高位）</th>
+          <th>字节2</th>
+          <th>字节3</th>
+          <th>字节4</th>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">00</code> –
+            <code class="mw-highlight" dir="ltr">7F</code>
+          </td>
+          <th colspan="3"></th>
+          <td style="text-align: right">128</td>
+          <td>
+            <code class="mw-highlight" dir="ltr">0000</code> –
+            <code class="mw-highlight" dir="ltr">007F</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code class="mw-highlight" dir="ltr">80</code></td>
+          <th colspan="3"></th>
+          <td>—</td>
+          <td>
+            错误
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">81</code> –
+            <code class="mw-highlight" dir="ltr">FE</code>
+          </td>
+          <td>
+            <code class="mw-highlight" dir="ltr">40</code> –
+            <code class="mw-highlight" dir="ltr">FE</code> 除去
+            <code class="mw-highlight" dir="ltr">7F</code>
+          </td>
+          <th colspan="2"></th>
+          <td style="text-align: right">
+            <span style="white-space:nowrap">23,940</span>
+          </td>
+          <td rowspan="2">
+            <code class="mw-highlight" dir="ltr">0080</code> –
+            <code class="mw-highlight" dir="ltr">FFFF</code> 除去
+            <code class="mw-highlight" dir="ltr">D800</code> –
+            <code class="mw-highlight" dir="ltr">DFFF</code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">81</code> –
+            <code class="mw-highlight" dir="ltr">84</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">30</code> –
+            <code class="mw-highlight" dir="ltr">39</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">81</code> –
+            <code class="mw-highlight" dir="ltr">FE</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">30</code> –
+            <code class="mw-highlight" dir="ltr">39</code>
+          </td>
+          <td style="text-align: right">
+            <span style="white-space:nowrap">39,420</span>
+          </td>
+        </tr>
+        <tr>
+          <td><code class="mw-highlight" dir="ltr">85</code></td>
+          <td>— (<span style="white-space:nowrap">12,600</span>)</td>
+          <td>（未来字符拓展）</td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">86</code> –
+            <code class="mw-highlight" dir="ltr">8F</code>
+          </td>
+          <td>— (<span style="white-space:nowrap">126,000</span>)</td>
+          <td>（未来汉字拓展）</td>
+        </tr>
+        <tr>
+          <td colspan="4">无</td>
+          <td>—</td>
+          <td>
+            <code class="mw-highlight" dir="ltr">D800</code> –
+            <code class="mw-highlight" dir="ltr">DFFF</code>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">90</code> –
+            <code class="mw-highlight" dir="ltr">E3</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">30</code> –
+            <code class="mw-highlight" dir="ltr">39</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">81</code> –
+            <code class="mw-highlight" dir="ltr">FE</code>
+          </td>
+          <td rowspan="3">
+            <code class="mw-highlight" dir="ltr">30</code> –
+            <code class="mw-highlight" dir="ltr">39</code>
+          </td>
+          <td style="text-align: right">
+            <span style="white-space:nowrap">1,048,576</span>
+          </td>
+          <td><code>1 0000</code> – <code>10 FFFF</code></td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">E4</code> –
+            <code class="mw-highlight" dir="ltr">FC</code>
+          </td>
+          <td>— (<span style="white-space:nowrap">315,000</span>)</td>
+          <td>（未来标准拓展）</td>
+        </tr>
+        <tr>
+          <td>
+            <code class="mw-highlight" dir="ltr">FD</code> –
+            <code class="mw-highlight" dir="ltr">FE</code>
+          </td>
+          <td>— (<span style="white-space:nowrap">25,200</span>)</td>
+          <td>（用户造字区域）</td>
+        </tr>
+        <tr>
+          <td><code class="mw-highlight" dir="ltr">FF</code></td>
+          <th colspan="3"></th>
+          <td>—</td>
+          <td>错误</td>
+        </tr>
+        <tr>
+          <th colspan="4" style="text-align: right">总计</th>
+          <th style="text-align: right">
+            <span style="white-space:nowrap">1,112,064</span>
+          </th>
+          <th></th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
