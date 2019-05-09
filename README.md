@@ -1,4 +1,4 @@
-# Character encodings
+# Character Encodings
 
 - [ASCII](ISO-IEC_646/ASCII/README.md)
 - [GB](GB/README.md)
